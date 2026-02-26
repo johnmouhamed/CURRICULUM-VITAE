@@ -1,5 +1,5 @@
 import streamlit as st
-from PIL import Image
+image = Image.open("deployement/photo.JPEG")
 import base64
 
 st.set_page_config(
@@ -40,8 +40,8 @@ st.markdown("""
 # ================= SIDEBAR =================
 with st.sidebar:
     st.title("Informations")
-    st.write("📍 Ville, Pays")
-    st.write("📞 +XXX XX XX XX XX")
+    st.write("📍 Dakar, Senegal")
+    
     st.write("📧 email@email.com")
     st.write("🔗 LinkedIn")
     
