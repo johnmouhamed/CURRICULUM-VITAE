@@ -12,13 +12,13 @@ st.markdown("""
 <style>
 /* Fond blanc et texte noir pour toute la page et sidebar */
 [data-testid="stAppViewContainer"] {
-    background-color:gray;
+    background-color:white;
     color: black;
 }
 
 /* Sidebar */
 [data-testid="stSidebar"] {
-    background-color: white;
+    background-color: gray;
     color: black;
 }
 
