@@ -1,5 +1,5 @@
 import streamlit as st
-
+st.title("CURRICULUM VITAE")
 # ================= CONFIG PAGE =================
 st.set_page_config(
     page_title="Portfolio Géomaticien 🗺️",
