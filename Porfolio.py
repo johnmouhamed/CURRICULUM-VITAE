@@ -27,7 +27,7 @@ st.markdown("""
     color: black;
 }
 .section {
-    font-size: 26px;
+    font-size: 30px;
     font-weight: bold;
     margin-top: 25px;
     color: cyan;
@@ -75,7 +75,7 @@ st.write("""
 # Expérience
 st.markdown('<p class="section">💼 Expérience Professionnelle</p>', unsafe_allow_html=True)
 st.markdown("""
-### 🏢 Technicien Géomatique – Société XYZ (2023–Présent)
+
 - Réalisation de cartes techniques
 - Analyse spatiale sous QGIS
 - Collecte de données GPS
@@ -85,12 +85,10 @@ st.markdown("""
 # Projets
 st.markdown('<p class="section">🌍 Projets Réalisés</p>', unsafe_allow_html=True)
 st.markdown("""
-### 🛰️ Cartographie d’Occupation des Sols
+
 - Classification d’images satellites
 - Analyse multicritère
 - Production cartographique
-
-### 🏘️ Base de Données Cadastrale
 - Structuration SIG
 - Intégration données terrain
 """)
@@ -104,8 +102,8 @@ st.write("""
 
 # Langues
 st.markdown('<p class="section">🌐 Langues</p>', unsafe_allow_html=True)
-st.write("🇫🇷 Français : Courant")
-st.write("🇬🇧 Anglais : Technique")
+st.write(" Français : Courant")
+st.write(" Anglais : Technique")
 
 # Footer
 st.markdown("---")
