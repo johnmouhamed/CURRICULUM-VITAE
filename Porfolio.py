@@ -32,8 +32,8 @@ def header():
     st.markdown('<p class="title">👨‍💼 TON NOM</p>', unsafe_allow_html=True)
     st.markdown('<p class="subtitle">🗺️ Technicien Supérieur en Géomatique</p>', unsafe_allow_html=True)
     st.write("📍 Ville, Pays")
-    st.write("📞 +XXX XX XX XX XX")
-    st.write("📧 email@email.com")
+    
+    st.write("📧 johnmouhadione378@email.com")
     st.write("🔗 LinkedIn | Portfolio")
     st.markdown("---")
 
