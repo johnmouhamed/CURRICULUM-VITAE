@@ -1,5 +1,5 @@
 import streamlit as st
-st.title("CURRICULUM VITAE")
+
 # ================= CONFIG PAGE =================
 st.set_page_config(
     page_title="Portfolio Géomaticien 🗺️",
@@ -10,28 +10,10 @@ st.set_page_config(
 # ================= STYLE =================
 st.markdown("""
 <style>
-/* Fond blanc et texte noir pour le contenu principal */
+/* Fond blanc et texte noir pour toute la page et sidebar */
 [data-testid="stAppViewContainer"] {
     background-color: white;
     color: black;
-}
-
-/* Titres et sections */
-.name {
-    font-size: 32px;
-    font-weight: bold;
-    color: black;
-}
-.profession {
-    font-size: 18px;
-    color: black;
-}
-.section {
-    font-size: 30px;
-    font-weight: bold;
-    margin-top: 25px;
-    color: black;
-}
 }
 
 /* Sidebar */
@@ -39,11 +21,27 @@ st.markdown("""
     background-color: white;
     color: black;
 }
+
+/* Titre centré en haut */
+.title {
+    font-size: 42px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Sections */
+.section {
+    font-size: 26px;
+    font-weight: bold;
+    margin-top: 25px;
+    color: black;
+}
 </style>
 """, unsafe_allow_html=True)
 
 # ================= SIDEBAR =================
-# Infos personnelles dans sidebar
 st.sidebar.markdown("## 👨‍💼 Informations")
 st.sidebar.markdown("### Mouhamed Dione")
 st.sidebar.markdown("**🗺️ Technicien Supérieur en Géomatique**")
@@ -52,10 +50,14 @@ st.sidebar.write("📍 Dakar, Sénégal")
 st.sidebar.write("📧 johnmouhamed378@gmail.com")
 st.sidebar.write("🔗 www.linkedin.com/in/mouhamed-dione-76a08a376")
 st.sidebar.markdown("---")
-
+st.sidebar.info("Disponible pour opportunités professionnelles")
 
 # ================= CONTENU PRINCIPAL =================
-# Profil
+
+# ===== TITRE CENTRÉ =====
+st.markdown('<p class="title">Curriculum Vitae</p>', unsafe_allow_html=True)
+
+# ===== PROFIL =====
 st.markdown('<p class="section">👤 Profil Professionnel</p>', unsafe_allow_html=True)
 st.write("""
 Technicien supérieur en géomatique spécialisé dans la gestion,
@@ -68,7 +70,7 @@ et aussi dans la programmation en Python.
 Rigoureux, précis et orienté résultats.
 """)
 
-# Compétences
+# ===== COMPÉTENCES =====
 st.markdown('<p class="section">🛠️ Compétences Techniques</p>', unsafe_allow_html=True)
 st.write("""
 - 🗺️ QGIS  
@@ -79,39 +81,41 @@ st.write("""
 - 🐍 Python (Analyse spatiale)  
 """)
 
-# Expérience
+# ===== EXPÉRIENCE =====
 st.markdown('<p class="section">💼 Expérience Professionnelle</p>', unsafe_allow_html=True)
 st.markdown("""
-
+### 🏢 Technicien Géomatique – Société XYZ (2023–Présent)
 - Réalisation de cartes techniques
 - Analyse spatiale sous QGIS
 - Collecte de données GPS
 - Gestion de bases de données SIG
 """)
 
-# Projets
+# ===== PROJETS =====
 st.markdown('<p class="section">🌍 Projets Réalisés</p>', unsafe_allow_html=True)
 st.markdown("""
-
+### 🛰️ Cartographie d’Occupation des Sols
 - Classification d’images satellites
 - Analyse multicritère
 - Production cartographique
+
+### 🏘️ Base de Données Cadastrale
 - Structuration SIG
 - Intégration données terrain
 """)
 
-# Formation
+# ===== FORMATION =====
 st.markdown('<p class="section">🎓 Formation</p>', unsafe_allow_html=True)
 st.write("""
 🎓 Diplôme de Technicien Supérieur en Géomatique – 2023  
 📘 Baccalauréat Scientifique – 2024  
 """)
 
-# Langues
+# ===== LANGUES =====
 st.markdown('<p class="section">🌐 Langues</p>', unsafe_allow_html=True)
-st.write(" Français : Courant")
-st.write(" Anglais : Technique")
+st.write("🇫🇷 Français : Courant")
+st.write("🇬🇧 Anglais : Technique")
 
-# Footer
+# ===== FOOTER =====
 st.markdown("---")
 st.markdown("© 2026 | Portfolio Géomaticien 🗺️")
