@@ -58,7 +58,7 @@ Rigoureux, précis et orienté résultats.
 """)
 
 # ===== COMPÉTENCES =====
-st.markdown('<p class="section">🛠️ Compétences Techniques</p>')
+st.markdown('<p class="section">🛠️ Compétences Techniques</p>', unsafe_allow_html=True)
 
 col1, col2 = st.columns(2)
 
