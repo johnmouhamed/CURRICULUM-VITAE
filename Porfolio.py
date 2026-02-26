@@ -9,23 +9,37 @@ st.set_page_config(
 # ================= STYLE =================
 st.markdown("""
 <style>
+/* Fond blanc et texte noir pour toute la page */
+body {
+    background-color: white;
+    color: black;
+}
+
+/* Sidebar style */
+.stSidebar {
+    background-color: #f5f5f5;  /* gris clair pour distinguer la sidebar */
+    color: black;
+}
+
+/* Titres et sections */
 .name {
     font-size: 32px;
     font-weight: bold;
-    color: #0B3C5D;
+    color: black;
 }
 .profession {
     font-size: 18px;
-    color: gray;
+    color: black;
 }
 .section {
     font-size: 26px;
     font-weight: bold;
     margin-top: 25px;
-    color: #0B3C5D;
+    color: black;
 }
 </style>
 """, unsafe_allow_html=True)
+
 
 # ================= SIDEBAR (INFOS PERSONNELLES) =================
 st.sidebar.markdown("## 👨‍💼 Informations")
@@ -35,12 +49,11 @@ st.sidebar.markdown("**🗺️ Technicien Supérieur en Géomatique**")
 
 st.sidebar.markdown("---")
 st.sidebar.write("📍 Ville, Pays")
-st.sidebar.write("📧 email@email.com")
-st.sidebar.write("📞 +XXX XX XX XX XX")
-st.sidebar.write("🔗 LinkedIn")
+st.sidebar.write("📧 johnmouhamed378@gmail.com")
+
 
 st.sidebar.markdown("---")
-st.sidebar.info("Disponible pour opportunités professionnelles")
+
 
 # ================= CONTENU PRINCIPAL =================
 
@@ -64,35 +77,35 @@ col1, col2 = st.columns(2)
 
 with col1:
     st.write("🗺️ QGIS")
-    st.progress(90)
+    
 
     st.write("🌍 ArcGIS")
-    st.progress(85)
+   
 
     st.write("📐 AutoCAD / Covadis")
-    st.progress(80)
+    
 
 with col2:
     st.write("📡 GPS & Stations Totales")
-    st.progress(88)
+
 
     st.write("🛰️ Télédétection")
-    st.progress(82)
+
 
     st.write("🐍 Python (Analyse spatiale)")
-    st.progress(70)
+   
 
 # ===== EXPÉRIENCE =====
 st.markdown('<p class="section">💼 Expérience Professionnelle</p>', unsafe_allow_html=True)
 
 st.markdown("""
-### 🏢 Technicien Géomatique – Société XYZ (2023–Présent)
+
 - Réalisation de cartes techniques
 - Analyse spatiale sous QGIS
 - Collecte de données GPS
 - Gestion de bases de données SIG
 
-### 🏢 Stagiaire Géomatique – Bureau d'Études ABC (2022–2023)
+
 - Levés topographiques
 - Digitalisation de plans
 - Production cartographique
@@ -116,8 +129,8 @@ st.markdown("""
 st.markdown('<p class="section">🎓 Formation</p>', unsafe_allow_html=True)
 
 st.write("""
-🎓 Diplôme de Technicien Supérieur en Géomatique – 2023  
-📘 Baccalauréat Scientifique – 2019  
+🎓 Diplôme de Technicien Supérieur en Géomatique – 2026  
+📘 Baccalauréat Scientifique – 2024  
 """)
 
 # ===== LANGUES =====
