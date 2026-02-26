@@ -104,7 +104,7 @@ st.markdown("""
 # ===== FORMATION =====
 st.markdown('<p class="section">🎓 Formation</p>', unsafe_allow_html=True)
 st.write("""
-🎓 Diplôme de Technicien Supérieur en Géomatique – 2023  
+🎓 Diplôme de Technicien Supérieur en Géomatique – 2026 
 📘 Baccalauréat Scientifique – 2024  
 """)
 
