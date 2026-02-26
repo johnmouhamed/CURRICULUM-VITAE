@@ -30,7 +30,7 @@ st.markdown("""
     font-size: 26px;
     font-weight: bold;
     margin-top: 25px;
-    color: black;
+    color: gray;
 }
 </style>
 """, unsafe_allow_html=True)
@@ -45,7 +45,7 @@ st.sidebar.write("📍 Dakar, Sénégal")
 st.sidebar.write("📧 johnmouhamed378@gmail.com")
 st.sidebar.write("🔗 www.linkedin.com/in/mouhamed-dione-76a08a376")
 st.sidebar.markdown("---")
-st.sidebar.info("Disponible pour opportunités professionnelles")
+
 
 # ================= CONTENU PRINCIPAL =================
 # Profil
