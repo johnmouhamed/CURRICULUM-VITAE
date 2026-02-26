@@ -24,7 +24,7 @@ st.markdown("""
 
 /* Titre centré en haut */
 .title {
-    font-size:60px;
+    font-size:100px;
     font-weight: bold;
     color: black;
     text-align: center;
