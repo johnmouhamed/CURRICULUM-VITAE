@@ -28,6 +28,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # ================= SIDEBAR (INFOS PERSONNELLES) =================
+st.image("photo.jpeg")
 st.sidebar.markdown("## 👨‍💼 Informations")
 
 st.sidebar.markdown("### Mouhamed Dione")
