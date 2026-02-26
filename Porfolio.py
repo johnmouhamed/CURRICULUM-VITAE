@@ -32,6 +32,13 @@ st.markdown("""
     margin-top: 25px;
     color: black;
 }
+}
+
+/* Sidebar */
+[data-testid="stSidebar"] {
+    background-color: white;
+    color: black;
+}
 </style>
 """, unsafe_allow_html=True)
 
