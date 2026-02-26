@@ -36,7 +36,7 @@ st.sidebar.markdown("**🗺️ Technicien Supérieur en Géomatique**")
 st.sidebar.markdown("---")
 st.sidebar.write("📍 Dakar, Sénégal")
 st.sidebar.write("📧 johnmouhamed378@gmail.com")
-st.sidebar.write("🔗 LinkedIn")
+st.sidebar.write("🔗 www.linkedin.com/in/mouhamed-dione-76a08a376")
 
 st.sidebar.markdown("---")
 st.sidebar.info("Disponible pour opportunités professionnelles")
@@ -92,11 +92,6 @@ st.markdown("""
 - Collecte de données GPS
 - Gestion de bases de données SIG
 
-### 🏢 Stagiaire Géomatique – Bureau d'Études ABC (2022–2023)
-- Levés topographiques
-- Digitalisation de plans
-- Production cartographique
-""")
 
 # ===== PROJETS =====
 st.markdown('<p class="section">🌍 Projets Réalisés</p>', unsafe_allow_html=True)
