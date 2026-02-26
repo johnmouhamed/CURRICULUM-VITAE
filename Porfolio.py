@@ -51,7 +51,7 @@ st.sidebar.write("📍 Dakar, Sénégal")
 st.sidebar.write("📧 johnmouhamed378@gmail.com")
 st.sidebar.write("🔗 www.linkedin.com/in/mouhamed-dione-76a08a376")
 st.sidebar.markdown("---")
-st.sidebar.info("Disponible pour opportunités professionnelles")
+
 
 # ================= CONTENU PRINCIPAL =================
 
@@ -87,7 +87,7 @@ st.markdown('<p class="section">💼 Expérience Professionnelle</p>', unsafe_al
 st.markdown("""
 
 - Réalisation de cartes techniques
-- Analyse spatiale sous QGIS
+- Analyse spatiale sous QGIS et ARCGIS
 - Collecte de données GPS
 - Gestion de bases de données SIG
 """)
@@ -116,4 +116,4 @@ st.write(" Anglais : Technique")
 
 # ===== FOOTER =====
 st.markdown("---")
-st.markdown("© 2026 | Portfolio Géomaticien 🗺️")
+st.markdown("THANKS YOU")
