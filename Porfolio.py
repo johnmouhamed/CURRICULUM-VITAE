@@ -64,23 +64,23 @@ col1, col2 = st.columns(2)
 
 with col1:
     st.write("🗺️ QGIS")
-    st.progress(90)
+   
 
     st.write("🌍 ArcGIS")
-    st.progress(85)
+   
 
     st.write("📐 AutoCAD / Covadis")
-    st.progress(80)
+    
 
 with col2:
     st.write("📡 GPS & Stations Totales")
-    st.progress(88)
+
 
     st.write("🛰️ Télédétection")
-    st.progress(82)
+    
 
     st.write("🐍 Python (Analyse spatiale)")
-    st.progress(70)
+   
 
 # ===== EXPÉRIENCE =====
 st.markdown('<p class="section">💼 Expérience Professionnelle</p>', unsafe_allow_html=True)
